@@ -1,0 +1,1 @@
+Bài này thực hiện bật sáng 8 đèn led theo một trình tự, sử dụng IC 74HC545
