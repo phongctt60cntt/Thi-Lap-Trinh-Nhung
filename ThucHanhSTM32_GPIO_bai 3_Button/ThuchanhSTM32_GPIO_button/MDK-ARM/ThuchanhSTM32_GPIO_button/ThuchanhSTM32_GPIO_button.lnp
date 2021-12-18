@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"thuchanhstm32_gpio_button\startup_stm32f407xx.o"
+"thuchanhstm32_gpio_button\main.o"
+"thuchanhstm32_gpio_button\stm32f4xx_it.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_msp.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_tim.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_tim_ex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_rcc.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_rcc_ex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_flash.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_flash_ex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_gpio.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_dma_ex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_dma.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_pwr.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_pwr_ex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_cortex.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal.o"
+"thuchanhstm32_gpio_button\stm32f4xx_hal_exti.o"
+"thuchanhstm32_gpio_button\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ThuchanhSTM32_GPIO_button\ThuchanhSTM32_GPIO_button.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThuchanhSTM32_GPIO_button.map" -o ThuchanhSTM32_GPIO_button\ThuchanhSTM32_GPIO_button.axf
